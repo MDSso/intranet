@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+	margin:0;
+	padding:0;
+ }
+
+.navbar>ul {
+    background: gray;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+.navbar>ul>li {
+    display: inline-block;
+    padding: 0;
+  }
+.navbar>ul>li>a {
+	font-family:'Malgun Gothic';
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+  }
+.navbar>ul>li>a:hover { background: #5D5D5D; }
+ 
